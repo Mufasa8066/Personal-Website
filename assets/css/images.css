@@ -1,0 +1,14 @@
+.image {
+    display: inline-block;
+    width: 20px; /* Width of the frame */
+    height: 200px; /* Height of the frame */
+    overflow: hidden; /* Hide overflow */
+}
+
+.framed-image {
+    width: 50%;
+    /*height: auto; /* Maintain aspect ratio */
+    max-width: 40%;
+    max-height: 50%;
+    display: block;
+}
